@@ -1,0 +1,22 @@
+{
+  "name": "chrome-extension-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "f": "prettier --write --loglevel warn \"./**/*.{js,json,ts,css,less,scss,vue,html,md}\""
+  },
+  "dependencies": {
+    "pinia": "^2.0.13",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.7",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "prettier": "^2.8.2",
+    "vite": "^2.9.5"
+  }
+}
